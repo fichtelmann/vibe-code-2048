@@ -9,8 +9,7 @@ export interface AnimatedTile {
   isMerged: boolean;
 }
 
-export interface LeaderboardEntry {
-  rank: number;
+export interface ScoreHistoryEntry {
   score: number;
   date: string;
 }
